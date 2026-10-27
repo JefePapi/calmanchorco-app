@@ -1,0 +1,20 @@
+# --- security hygiene (added 2026-10-27): secrets, keys, tokens, databases, logs, deps ---
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+*token*.json
+*client_secret*.json
+credentials.json
+*.db
+*.sqlite
+*.sqlite3
+*.log
+logs/
+node_modules/
